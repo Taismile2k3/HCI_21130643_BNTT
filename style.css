@@ -1,0 +1,110 @@
+/* Background image for the page */
+body {
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-alien-technology-promotion-poster-image_195741.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+/* Form styling */
+form {
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    margin: 20px auto;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem; /* Larger heading */
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1.3rem; /* Increase label size */
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], select, textarea {
+    width: 100%;
+    padding: 15px; /* Increased padding for larger fields */
+    font-size: 1.2rem; /* Larger text input size */
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    background-color: #1a73e8;
+    color: white;
+    padding: 15px 30px; 
+    font-size: 1.5rem; /* Larger button text */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #135ab5;
+}
+
+.course-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.course-card h3 {
+    font-size: 1.8rem; /* Larger course title */
+    margin-bottom: 10px;
+}
+
+.course-card p {
+    font-size: 1.3rem; /* Larger course details */
+    margin-bottom: 10px;
+}
+
+.course-card button {
+    font-size: 1.2rem; /* Larger button text */
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 30px;
+    width: 50%;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+
+.close {
+    font-size: 2rem;
+    float: right;
+    cursor: pointer;
+    color: red;
+}
+
+#courseModal p {
+    font-size: 1.5rem; /* Larger modal text */
+}
+
+#courseModal strong {
+    font-size: 1.6rem;
+}
